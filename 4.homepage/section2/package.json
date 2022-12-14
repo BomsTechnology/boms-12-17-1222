@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "watchcss": "npx tailwindcss -i ./src/input.css -o ./dist/boms12_171222-hp_2.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
