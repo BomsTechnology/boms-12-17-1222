@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#boms12_171222-fp_2 {
+  font-family: "Montserrat";
+  position: relative;
+  width: 100%;
+  padding: 70px 20px;
+  overflow: hidden;
+  background-image: url("./images/bg.png");
+  background-size: cover;
+}
+
+#boms12_171222-fp_2 .wrapper {
+  /* position: absolute; */
+  /* z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#boms12_171222-fp_2 .container {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#boms12_171222-fp_2 .container .question {
+  display: flex;
+  align-items: center;
+  background-color: #ffede2;
+  border-radius: 8px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+#boms12_171222-fp_2 .container .question img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+#boms12_171222-fp_2 .container .question h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 100%;
+  padding: 0 10px;
+}
+
+#boms12_171222-fp_2 .container .question svg {
+  width: 32px;
+  height: 32px;
+  color: white;
+  cursor: pointer;
+}
+
+#boms12_171222-fp_2 .container .response {
+  padding: 30px 40px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#boms12_171222-fp_2 .ico {
+  transform: rotate(90deg);
+}
+
+#boms12_171222-fp_2 .bg-img {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  top: -100%;
+}
+
+#boms12_171222-fp_2 .hidden {
+  display: none;
+}
+
+@media (min-width: 780px) {
+  #boms12_171222-fp_2 .wrapper {
+    max-width: 700px;
+  }
+}

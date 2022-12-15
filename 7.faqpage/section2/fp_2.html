@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./boms12_171222-fp_2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="boms12_171222-fp_2">
+      <div class="wrapper">
+        <div class="container">
+          <div class="question boms12_171222_q">
+            <div>
+              <img src="./images/question.png" alt="" />
+            </div>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="3"
+                stroke="currentColor"
+                class="ico"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <p class="response boms12_171222_r">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="container">
+          <div class="question boms12_171222_q">
+            <div>
+              <img src="./images/question.png" alt="" />
+            </div>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="3"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <p class="response boms12_171222_r hidden">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      let questions = document.getElementsByClassName(`boms12_171222_q`);
+      let reponses = document.getElementsByClassName(`boms12_171222_r`);
+
+      for (let i = 0; i < questions.length; i++) {
+        questions[i].addEventListener("click", async function (e) {
+          e.preventDefault();
+          for (let y = 0; y < reponses.length; y++) {
+            if (reponses[i] == reponses[y]) {
+              reponses[y].classList.toggle("hidden");
+              questions[y].children[2].children[0].classList.toggle("ico");
+            } else {
+              reponses[y].classList.add("hidden");
+              questions[y].children[2].children[0].classList.remove("ico");
+            }
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Confere section 6 homepage
