@@ -1,0 +1,1 @@
+Confere section 2 faqpage
