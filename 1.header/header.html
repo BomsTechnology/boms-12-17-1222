@@ -8,57 +8,179 @@
     <title>Document</title>
   </head>
   <body>
-    <header
-      class="boms12_171222-header-bg-white boms12_171222-header-font-montserrat boms12_171222-header-w-full md:boms12_171222-header-px-10 boms12_171222-header-px-4 lg:boms12_171222-header-px-20 sm:boms12_171222-header-py-6 boms12_171222-header-py-4 boms12_171222-header-flex boms12_171222-header-justify-between boms12_171222-header-items-center"
-    >
-    <div class=" lg:boms12_171222-header-hidden block">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="sm:boms12_171222-header-w-8 sm:boms12_171222-header-h-8 boms12_171222-header-w-7 boms12_171222-header-h-7 boms12_171222-header-text-black">
-  <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
-</svg>
-</div>
-      <div class="sm:boms12_171222-header-w-[257px] sm:boms12_171222-header-h-[52px] boms12_171222-header-w-[228px] boms12_171222-header-h-[46px] boms12_171222-header-overflow-hidden">
-        <img src="./images/logo1.png" class=" boms12_171222-header-object-cover boms12_171222-header-w-full boms12_171222-header-h-full " alt="" />
-      </div>
-      <nav class=" boms12_171222-header-uppercase lg:boms12_171222-header-flex  boms12_171222-header-hidden boms12_171222-header-space-x-10 boms12_171222-header-items-center">
-          <a href="#" class=" boms12_171222-header-text-[15px] boms12_171222-header-font-bold">Home</a>
-          <a href="#" class=" boms12_171222-header-text-[15px] boms12_171222-header-font-bold">Choose your animal</a>
-          <a href="#" class=" boms12_171222-header-text-[15px] boms12_171222-header-font-bold">Our Mission</a>
-          <a href="#" class=" boms12_171222-header-text-[15px] boms12_171222-header-font-bold">faq</a>
-        </ul>
-      </nav>
-      <div
-        class="boms12_171222-header-flex boms12_171222-header-items-center boms12_171222-header-justify-center boms12_171222-header-space-x-4"
-      >
-        <div class=" lg:boms12_171222-header-block boms12_171222-header-hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            class="sm:boms12_171222-header-w-8 sm:boms12_171222-header-h-8 boms12_171222-header-w-6 boms12_171222-header-h-6 boms12_171222-header-text-black"
+    <header class="boms12_171222-header-relative boms12_171222-header-w-full">
+      <div class="boms12_171222-header-w-full">
+        <div
+          class="boms12_171222-header-fixed mobileNav boms12_171222-header-p-4 boms12_171222-header-w-4/5 boms12_171222-header-duration-1000 boms12_171222-header-transition-all -boms12_171222-header-left-full lg:boms12_171222-header-hidden boms12_171222-header-shadow-xl boms12_171222-header-top-0 boms12_171222-header-z-50 boms12_171222-header-h-screen boms12_171222-header-bg-white"
+        >
+          <div
+            class="boms12_171222-header-flex boms12_171222-header-justify-between boms12_171222-header-items-center"
           >
-            <path
-              fill-rule="evenodd"
-              d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-              clip-rule="evenodd"
-            />
-          </svg>
+            <div
+              class="boms12_171222-header-w-[208px] boms12_171222-header-h-[26px] boms12_171222-header-overflow-hidden"
+            >
+              <img
+                src="./images/logo1.png"
+                class="boms12_171222-header-object-cover boms12_171222-header-w-full boms12_171222-header-h-full"
+                alt=""
+              />
+            </div>
+            <div class="navClose boms12_171222-header-cursor-pointer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="navClose boms12_171222-header-w-7 boms12_171222-header-h-7 boms12_171222-header-text-black"
+              >
+                <path
+                  class="navClose"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+          </div>
+          <nav
+            class="boms12_171222-header-uppercase boms12_171222-header-flex boms12_171222-header-flex-col boms12_171222-header-mt-10 boms12_171222-header-overflow-y-auto boms12_171222-header-space-y-10 boms12_171222-header-items-center"
+          >
+            <a
+              href="#"
+              class="boms12_171222-header-text-[15px] boms12_171222-header-font-bold"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="boms12_171222-header-text-[15px] boms12_171222-header-font-bold"
+              >Choose your animal</a
+            >
+            <a
+              href="#"
+              class="boms12_171222-header-text-[15px] boms12_171222-header-font-bold"
+              >Our Mission</a
+            >
+            <a
+              href="#"
+              class="boms12_171222-header-text-[15px] boms12_171222-header-font-bold"
+              >faq</a
+            >
+          </nav>
         </div>
-        <div>
+      </div>
+      <div
+        class="boms12_171222-header-bg-white boms12_171222-header-font-montserrat boms12_171222-header-z-10 boms12_171222-header-w-full md:boms12_171222-header-px-10 boms12_171222-header-px-4 lg:boms12_171222-header-px-20 sm:boms12_171222-header-py-6 boms12_171222-header-py-4 boms12_171222-header-flex boms12_171222-header-justify-between boms12_171222-header-items-center"
+      >
+        <button
+          type="button"
+          class="lg:boms12_171222-header-hidden block navOpen boms12_171222-header-p-1 boms12_171222-header-cursor-pointer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            class="boms12_171222-header-w-7 boms12_171222-header-h-7 boms12_171222-header-text-black"
+            class="sm:boms12_171222-header-w-8 navOpen sm:boms12_171222-header-h-8 boms12_171222-header-w-7 boms12_171222-header-h-7 boms12_171222-header-text-black"
           >
             <path
               fill-rule="evenodd"
-              d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z"
+              class="navOpen"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
               clip-rule="evenodd"
             />
           </svg>
+        </button>
+        <div
+          class="sm:boms12_171222-header-w-[257px] sm:boms12_171222-header-h-[52px] boms12_171222-header-w-[228px] boms12_171222-header-h-[46px] boms12_171222-header-overflow-hidden"
+        >
+          <img
+            src="./images/logo1.png"
+            class="boms12_171222-header-object-cover boms12_171222-header-w-full boms12_171222-header-h-full"
+            alt=""
+          />
+        </div>
+        <nav
+          class="boms12_171222-header-uppercase lg:boms12_171222-header-flex boms12_171222-header-hidden boms12_171222-header-space-x-10 boms12_171222-header-items-center"
+        >
+          <a
+            href="#"
+            class="boms12_171222-header-text-[15px] boms12_171222-header-font-bold"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="boms12_171222-header-text-[15px] boms12_171222-header-font-bold"
+            >Choose your animal</a
+          >
+          <a
+            href="#"
+            class="boms12_171222-header-text-[15px] boms12_171222-header-font-bold"
+            >Our Mission</a
+          >
+          <a
+            href="#"
+            class="boms12_171222-header-text-[15px] boms12_171222-header-font-bold"
+            >faq</a
+          >
+        </nav>
+        <div
+          class="boms12_171222-header-flex boms12_171222-header-items-center boms12_171222-header-justify-center boms12_171222-header-space-x-4"
+        >
+          <div
+            class="lg:boms12_171222-header-block boms12_171222-header-hidden"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="sm:boms12_171222-header-w-8 sm:boms12_171222-header-h-8 boms12_171222-header-w-6 boms12_171222-header-h-6 boms12_171222-header-text-black"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="boms12_171222-header-w-7 boms12_171222-header-h-7 boms12_171222-header-text-black"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
       </div>
     </header>
-    <script src="./dist/boms12_171222-header.js"></script>
+    <script>
+      let body = document.querySelector("body");
+      let navOpen = document.querySelector(".navOpen");
+      let navClose = document.querySelector(".navClose");
+      let mobileNav = document.querySelector(".mobileNav");
+
+      navOpen.addEventListener("click", async function (e) {
+        e.preventDefault();
+        mobileNav.classList.add("!-boms12_171222-header-left-0");
+      });
+
+      navClose.addEventListener("click", async function (e) {
+        e.preventDefault();
+        mobileNav.classList.remove("!-boms12_171222-header-left-0");
+      });
+
+      body.addEventListener("click", async function (e) {
+        let elt = e.target;
+        if (!elt.classList.contains("navOpen")) {
+          mobileNav.classList.remove("!-boms12_171222-header-left-0");
+        }
+      });
+    </script>
   </body>
 </html>
