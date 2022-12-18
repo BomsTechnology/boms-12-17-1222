@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#boms12_171222-mp_4 {
+  font-family: "Montserrat";
+  width: 100%;
+  height: 100%;
+  padding: 100px 25px;
+}
+
+#boms12_171222-mp_4 .sharks {
+  color: #bbbbbb;
+}
+
+#boms12_171222-mp_4 .turtles {
+  color: #bfeaed;
+}
+
+#boms12_171222-mp_4 .lions {
+  color: #a7d679;
+}
+
+#boms12_171222-mp_4 .elephants {
+  color: #ffd2b7;
+}
+
+#boms12_171222-mp_4 .wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  max-width: 100%;
+  margin: 0 auto;
+  gap: 80px;
+}
+
+#boms12_171222-mp_4 .wrapper .card {
+  width: 100%;
+  height: 225px;
+  background: #fbf6ec;
+  border-radius: 9px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#boms12_171222-mp_4 .wrapper .card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 10px;
+  color: #000000;
+}
+
+#boms12_171222-mp_4 .wrapper .card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-top: -60px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#boms12_171222-mp_4 .wrapper .card h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 3px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1000px) {
+  #boms12_171222-mp_4 .wrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 80%;
+    gap: 60px;
+  }
+  #boms12_171222-mp_4 .wrapper .card img {
+    width: 110.3px;
+    height: 110.3px;
+    margin-top: -90px;
+  }
+  #boms12_171222-mp_4 .wrapper .card {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1500px) {
+  #boms12_171222-mp_4 .wrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 1200px;
+    gap: 60px;
+  }
+}

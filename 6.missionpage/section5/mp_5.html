@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./boms12_171222-mp_5.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="boms12_171222-mp_5">
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./bg.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./bg.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./bg.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./bg.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./bg.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./bg.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./bg.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./bg.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        breakpoints: {
+          300: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          1024: {
+            slidesPerView: 6,
+            spaceBetween: 15,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#boms12_171222-mp_1 {
+  font-family: "Montserrat";
+  width: 100%;
+  height: 261px;
+  background-image: url("./images/bg.png");
+  background-size: cover;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#boms12_171222-mp_1 .title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 33px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#boms12_171222-mp_1 .subtitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffd2b7;
+}
+
+#boms12_171222-mp_1 .cnt_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -40px;
+}
+
+#boms12_171222-mp_1 .cnt_img img {
+  width: 86px;
+  height: 86px;
+  object-fit: cover;
+  margin: 0 2px;
+}
+
+@media (min-width: 780px) {
+  #boms12_171222-mp_1 {
+    height: 535px;
+  }
+  #boms12_171222-mp_1 .cnt_img img {
+    margin: 0 5px;
+    width: 143.3px;
+    height: 143.3px;
+  }
+  #boms12_171222-mp_1 .cnt_img {
+    bottom: -70px;
+  }
+  #boms12_171222-mp_1 .title {
+    font-size: 39px;
+    line-height: 51px;
+  }
+
+  #boms12_171222-mp_1 .subtitle {
+    font-size: 30px;
+    line-height: 39px;
+    margin-top: 10px;
+  }
+}
