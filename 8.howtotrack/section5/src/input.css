@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#boms12_171222-htw_5 {
+  background: rgba(191, 234, 237, 0.38);
+}
+#boms12_171222-htw_5 .mybg {
+  background: rgba(255, 255, 255, 0.6);
+}
